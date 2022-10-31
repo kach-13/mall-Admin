@@ -13,6 +13,7 @@ export function createBrand(data) {
     data:data
   })
 }
+
 export function updateShowStatus(data) {
   return request({
     url:'/brand/update/showStatus',
